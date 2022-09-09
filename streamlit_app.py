@@ -6,7 +6,7 @@ import streamlit as st
 
 st.set_page_config(
      page_title="This is Lit!",
-     page_icon=":whale:",
+     page_icon=":fire:",
      layout="centered",
      initial_sidebar_state="collapsed",
      menu_items={
