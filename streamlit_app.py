@@ -22,6 +22,8 @@ with st.echo(code_location='below'):
 
     Point = namedtuple('Point', 'x y')
     data = []
+    data
+    'This is the data'
 
     points_per_turn = total_points / num_turns
 
