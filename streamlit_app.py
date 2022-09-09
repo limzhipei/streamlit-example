@@ -4,6 +4,18 @@ import math
 import pandas as pd
 import streamlit as st
 
+st.set_page_config(
+     page_title="Ex-stream-ly Cool App",
+     page_icon="🧊",
+     layout="wide",
+     initial_sidebar_state="expanded",
+     menu_items={
+         'Get Help': 'https://www.extremelycoolapp.com/help',
+         'Report a bug': "https://www.extremelycoolapp.com/bug",
+         'About': "# This is a header. This is an *extremely* cool app!"
+     }
+ )
+
 """
 # Welcome to Streamlit!
 
@@ -14,13 +26,6 @@ forums](https://discuss.streamlit.io).
 
 In the meantime, below is an example of what you can do with just a few lines of code:
 """
-
-st.set_page_config(
-     page_title="THIS IS LIT!",
-     page_icon="random",
-     layout="wide",
-     initial_sidebar_state="expanded",
- )
 
 with st.echo(code_location='below'):
     total_points = st.slider("Number of points in spiral", 1, 10000, 10)
