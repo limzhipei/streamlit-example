@@ -23,7 +23,6 @@ st.set_page_config(
      menu_items={
          'Get Help': 'https://www.extremelycoolapp.com/help',
          'Report a bug': "https://www.extremelycoolapp.com/bug",
-         'About': None
      }
  )
 
