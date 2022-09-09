@@ -20,10 +20,6 @@ st.set_page_config(
      page_icon="random",
      layout="wide",
      initial_sidebar_state="expanded",
-     menu_items={
-         'Get Help': 'https://www.extremelycoolapp.com/help',
-         'Report a bug': "https://www.extremelycoolapp.com/bug",
-     }
  )
 
 with st.echo(code_location='below'):
