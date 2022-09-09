@@ -7,12 +7,12 @@ import streamlit as st
 st.set_page_config(
      page_title="Ex-stream-ly Cool App",
      page_icon="random",
-     layout="wide",
-     initial_sidebar_state="expanded",
+     layout="centered",
+     initial_sidebar_state="collapsed",
      menu_items={
-         'Get Help': 'https://www.extremelycoolapp.com/help',
-         'Report a bug': "https://www.extremelycoolapp.com/bug",
-         'About': "# This is a header. This is an *extremely* cool app!"
+         'Get Help': None,
+         'Report a bug': None,
+         'About': "# This is lit!"
      }
  )
 
