@@ -27,6 +27,9 @@ forums](https://discuss.streamlit.io).
 In the meantime, below is an example of what you can do with just a few lines of code:
 """
 
+with st.sidebar:
+     st.radio('Select one:', [1, 2])
+
 with st.echo(code_location='below'):
     total_points = st.slider("Number of points in spiral", 1, 10000, 10)
     num_turns = st.slider("Number of turns in spiral", 1, 100, 9)
