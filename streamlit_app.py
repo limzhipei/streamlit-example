@@ -26,7 +26,7 @@ start_spiral_turns = 9
 with st.sidebar:
      selector = st.radio('Select one:', ["default", "strange"])
      if selector == "strange":
-          start_spiral_pts = 678
+          start_spiral_pts = 1675
           start_spiral_turns = 25
 
 total_points = st.slider("Number of points in spiral", 1, 2000, start_spiral_pts)
