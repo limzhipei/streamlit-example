@@ -20,8 +20,14 @@ st.set_page_config(
 # Welcome to This Is Lit!
 """
 
+start_spiral_pts = 10
+start_spiral_turns = 9
+
 with st.sidebar:
-     st.radio('Select one:', ["default", "strange"])
+     selector = st.radio('Select one:', ["default", "strange"])
+     if selector == "strange":
+          start_spiral_pts = 678
+          start_spiral_turns = 25
 
 total_points = st.slider("Number of points in spiral", 1, 2000, 10)
 num_turns = st.slider("Number of turns in spiral", 1, 100, 9)
