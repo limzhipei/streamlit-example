@@ -29,8 +29,8 @@ with st.sidebar:
           start_spiral_pts = 678
           start_spiral_turns = 25
 
-total_points = st.slider("Number of points in spiral", 1, 2000, 10)
-num_turns = st.slider("Number of turns in spiral", 1, 100, 9)
+total_points = st.slider("Number of points in spiral", 1, 2000, start_spiral_pts)
+num_turns = st.slider("Number of turns in spiral", 1, 100, start_spiral_turns)
 
 Point = namedtuple('Point', 'x y')
 data = []
